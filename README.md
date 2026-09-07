@@ -84,16 +84,6 @@ The layout adapts to smaller screens using CSS media queries.
 
 ---
 
-## What I Learned
-
-While building this project, I practiced applying concepts that I learned during my HTML & CSS course in a real project.
-
-Instead of following a tutorial step-by-step, I used a visual design as a reference and worked on figuring out how to structure and style the page myself.
-
-This helped me better understand how HTML and CSS work together to create a complete user interface.
-
----
-
 ## Challenges
 
 Some of the challenges I encountered while building StudyFlow included:
