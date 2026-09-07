@@ -94,7 +94,6 @@ Some of the challenges I encountered while building StudyFlow included:
 - Creating a timetable layout
 - Building reusable-looking cards
 - Making the desktop design work well on mobile
-- Translating a visual design into actual HTML structure and CSS
 
 ---
 
