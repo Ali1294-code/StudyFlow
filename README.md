@@ -97,23 +97,6 @@ Some of the challenges I encountered while building StudyFlow included:
 
 ---
 
-## Future Improvements
-
-Since this is currently an HTML & CSS practice project, there are several things I could add in the future:
-
-- Add JavaScript functionality
-- Make tasks interactive
-- Add a working dark mode
-- Add course details pages
-- Add local storage for tasks
-- Add authentication
-- Connect the dashboard to a backend
-- Add real student data
-
-These features are intentionally outside the scope of this version because the main purpose of the project was to practice **HTML and CSS**.
-
----
-
 ## About Me
 
 I'm currently learning front-end development and recently completed my HTML & CSS studies.
