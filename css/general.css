@@ -7,3 +7,15 @@
 html {
   font-size: 62.5%;
 }
+
+.grid {
+  display: grid;
+}
+
+.grid--2-column {
+  grid-template-columns: 260px 1fr;
+}
+
+.grid--2-row {
+  grid-template-rows: 64px 1fr;
+}
