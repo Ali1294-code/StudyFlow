@@ -5,7 +5,7 @@
 .nav-aside {
   background-color: #f2f3ff;
   z-index: 3;
-  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
 }
 
 /* .dashboard-box {
@@ -14,7 +14,7 @@
 .dashboard-header {
   background-color: #faf8ff;
   z-index: 2;
-  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.025);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.025);
 }
 
 .dashboard {
