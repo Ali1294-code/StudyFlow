@@ -2,21 +2,65 @@
   height: 100dvh;
 }
 
-.nav-aside {
+/*****************
+----MAIN ASIDE----
+******************/
+.main-aside {
   background-color: #f2f3ff;
   z-index: 3;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
 }
 
-/* .dashboard-box {
-} */
+.aside-header {
+  margin: 20px 0 20px 30px;
+}
 
+.aside-header a {
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+}
+
+.main-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-nav-list a {
+  display: block;
+}
+
+.main-nav-link {
+  padding: 24px 16px;
+  background-color: #e2dfff;
+  border-radius: 16px;
+}
+
+.nav-icon {
+  size: bold;
+  width: 20px;
+  color: #464555;
+  stroke: #464555;
+}
+
+/*****************
+-DASHBOARD HEADER-
+******************/
 .dashboard-header {
   background-color: #faf8ff;
   z-index: 2;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.025);
 }
 
+/*****************
+----DASHBOARD----
+******************/
 .dashboard {
   background-color: #faf8ff;
   grid-column: 2 / -1;
