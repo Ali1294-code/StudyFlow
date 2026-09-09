@@ -20,33 +20,53 @@
   display: flex;
   gap: 10px;
   align-items: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .logo {
   width: 40px;
 }
 
+.main-nav {
+  width: 230px;
+  margin: 15px;
+}
+
 .main-nav-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  list-style: none;
 }
 
 .main-nav-list a {
-  display: block;
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+  align-items: center;
+  padding: 16px 16px;
+}
+
+.main-nav-list li:first-child {
+  background-color: #e2dfff;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
 }
 
 .main-nav-link {
-  padding: 24px 16px;
-  background-color: #e2dfff;
-  border-radius: 16px;
+  padding: 12px 6px;
+  border-radius: 24px;
 }
 
 .nav-icon {
-  size: bold;
+  display: inline-block;
+  height: 20px;
   width: 20px;
   color: #464555;
-  stroke: #464555;
+}
+
+.main-nav-link span {
+  font-size: 16px;
 }
 
 /*****************

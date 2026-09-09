@@ -8,6 +8,11 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  color: #464555;
+}
+
 .grid {
   display: grid;
 }
