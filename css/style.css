@@ -141,13 +141,18 @@
 .dashboard-header {
   background-color: #faf8ff;
   z-index: 2;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.025);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.025);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 24px;
 }
 
 /*****************
-----DASHBOARD----
+----DASHBOARD-SECTION-
 ******************/
-.dashboard {
+.dashboard-section {
   background-color: #faf8ff;
   grid-column: 2 / -1;
   overflow-y: scroll;
