@@ -101,7 +101,7 @@ Some of the challenges I encountered while building StudyFlow included:
 
 I'm currently learning front-end development and recently completed my HTML & CSS studies.
 
-StudyFlow is one of my first projects where I took what I learned and applied it to a complete website.
+StudyFlow is one of my first projects where I took what I learned and applied.
 
 I'm continuing to learn and improve my skills by building projects rather than relying only on tutorials.
 
