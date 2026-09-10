@@ -1,5 +1,6 @@
 .main {
   height: 100dvh;
+  overflow-x: hidden;
 }
 
 /*****************
@@ -8,6 +9,8 @@
 .main-aside {
   background-color: #f2f3ff;
   z-index: 3;
+  overflow-y: auto;
+  scrollbar-width: none;
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
 }
 
