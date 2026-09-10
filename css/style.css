@@ -12,13 +12,14 @@
 }
 
 .aside-header {
-  margin: 20px 0 20px 30px;
+  margin: 20px 0 20px 26px;
 }
 
 .aside-header a {
   text-decoration: none;
+  color: #3525cd;
   display: flex;
-  gap: 10px;
+  gap: 8px;
   align-items: center;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -34,17 +35,27 @@
 
 .main-nav-list {
   display: flex;
-  flex-direction: column;
   gap: 10px;
+  flex-direction: column;
+  height: 87dvh;
   list-style: none;
 }
 
-.main-nav-list a {
+.main-nav-list a:link,
+.main-nav-list a:visited {
   display: flex;
   gap: 10px;
   text-decoration: none;
   align-items: center;
   padding: 16px 16px;
+  transition: all 0.2s ease-in-out;
+}
+
+.non-selected:hover,
+.non-selected:active {
+  background-color: #e3e5f2;
+  color: #655ea6;
+  box-shadow: 0 16px 24px rgba(0, 0, 0, 0.05);
 }
 
 .main-nav-list li:first-child {
@@ -53,9 +64,22 @@
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.05);
 }
 
-.main-nav-link {
+.selected span {
+  color: #3525cd !important;
+}
+
+.selected-icon {
+  color: #3525cd !important;
+}
+
+.main-nav-list li:last-child {
+  margin-top: auto;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
   padding: 12px 6px;
-  border-radius: 24px;
+  border-radius: 16px;
 }
 
 .nav-icon {
@@ -67,6 +91,45 @@
 
 .main-nav-link span {
   font-size: 16px;
+  color: #464555;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 230px;
+  height: 64px;
+  font-family: "Inter";
+  color: #464555;
+  background-color: #eaedff;
+  padding: 8px 8px;
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile-box:hover,
+.profile-box:active {
+  background-color: #dde2ff;
+  color: #655ea6;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.user-name {
+  justify-self: start;
+}
+
+.profile-major {
+  justify-self: start;
+  font-size: 11px;
 }
 
 /*****************
