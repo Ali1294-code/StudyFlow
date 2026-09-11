@@ -15,7 +15,7 @@
 }
 
 .aside-header {
-  margin: 20px 0 20px 26px;
+  margin: 20px 20px 20px 26px;
 }
 
 .aside-header a {
@@ -93,7 +93,7 @@
 }
 
 .main-nav-link span {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: #464555;
 }
 
@@ -125,10 +125,16 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.025);
+}
+
+.user-name {
+  font-weight: bold;
 }
 
 .profile-major {
-  font-size: 11px;
+  font-size: 1.1rem;
 }
 
 /*****************
@@ -147,6 +153,64 @@
 
 .date {
   font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.header-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.search-box {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.005);
+}
+
+.new-task--btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3525cd;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.025);
+  transition: all 0.3s ease-in-out;
+}
+
+.new-task--btn:hover,
+.new-task--btn:active {
+  background-color: #2f20b4;
+}
+
+.new-task--icon {
+  width: 16px;
+  height: 16px;
+}
+
+.notifications {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.005);
+}
+
+.notifications--icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
 }
 
 /*****************

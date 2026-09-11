@@ -14,6 +14,12 @@ body {
   font-weight: 400;
 }
 
+.secondary-heading {
+  font-size: 1.4rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
 .grid {
   display: grid;
 }
