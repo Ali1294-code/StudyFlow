@@ -222,3 +222,8 @@
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
+.dashboard-title-welcome {
+  font-weight: 500;
+  color: #000;
+}

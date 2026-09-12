@@ -31,3 +31,7 @@ body {
 .grid--2-row {
   grid-template-rows: 64px 1fr;
 }
+
+.grid--1-row {
+  grid-template-rows: 90px 1fr;
+}
