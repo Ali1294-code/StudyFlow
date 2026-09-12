@@ -263,6 +263,8 @@
   padding: 6px 16px;
   background-color: #eaedff;
   border-radius: 50px;
+  font-weight: 600;
+  color: #000;
 }
 
 .welcome-statics-item:nth-child(2) {
