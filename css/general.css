@@ -33,5 +33,7 @@ body {
 }
 
 .grid--1-row {
-  grid-template-rows: 90px 1fr;
+  grid-template-rows: 60px 1fr;
+  gap: 36px;
+  padding: 0 24px;
 }

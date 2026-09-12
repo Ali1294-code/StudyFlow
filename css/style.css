@@ -202,6 +202,14 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 12px 12px rgba(0, 0, 0, 0.005);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.notifications:hover,
+.notifications:active {
+  background-color: #d6d5d5;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.05);
 }
 
 .notifications--icon {
@@ -219,11 +227,48 @@
 .dashboard-section {
   background-color: #faf8ff;
   grid-column: 2 / -1;
-  overflow-y: scroll;
+  overflow-y: auto;
   overflow-x: hidden;
+}
+
+.dashboard-welcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .dashboard-title-welcome {
   font-weight: 500;
-  color: #000;
+  color: #131b2e;
+  margin-bottom: 6px;
+}
+
+.dashboard-text-welcome {
+  font-weight: 500;
+  font-size: 1rem;
+  color: #464555;
+}
+
+.welcome-statics-list {
+  display: flex;
+  gap: 20px;
+  /* list-style: none; */
+  padding: 8px 16px;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.025);
+}
+
+.welcome-statics-item {
+  padding: 6px 16px;
+  background-color: #eaedff;
+  border-radius: 50px;
+}
+
+.welcome-statics-item:nth-child(2) {
+  background-color: #6ffbbe;
+}
+
+.welcome-statics-item:first-child {
+  list-style: none;
 }
